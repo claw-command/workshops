@@ -1,0 +1,85 @@
+[List.Rules:Comprehensive]
+# BASIC CASE MODIFICATIONS
+l
+u
+c
+C
+t
+
+# COMMON LEETSPEAK SUBSTITUTIONS
+sa@
+so0
+si1
+se3
+ss$
+sg9
+sb8
+
+# Combined leet + case
+c sa@
+c so0
+c sa@ so0
+c sa@ so0 si1
+c sa@ so0 se3
+
+# COMMON APPENDS (NUMBERS)
+$0
+$1
+$2
+$3
+$4
+$5
+$6
+$7
+$8
+$9
+
+# MULTI-DIGIT PATTERNS (CORRECT SYNTAX)
+$1 $2
+$1 $2 $3
+$1 $2 $3 $4
+
+$2 $0 $2 $3
+$2 $0 $2 $4
+$2 $0 $2 $5
+
+# COMMON SYMBOL APPENDS
+$!
+$?
+$#
+$@
+$$
+
+# NUMBER + SYMBOL COMBOS
+$1 $!
+$2 $!
+$3 $!
+$1 $@
+$1 $#
+
+# PREPENDS
+^!
+^@
+^#
+^1
+
+# DUPLICATION
+d
+dd
+
+# TRUNCATION
+T6
+T7
+T8
+T9
+
+# TARGETED HUMAN PATTERNS
+c $1 $2 $3
+c $1 $2 $3 $!
+c sa@ so0 $1 $2 $3
+c sa@ so0 $1 $2 $3 $!
+
+# CLEANUP
+r
+l r
+c r
